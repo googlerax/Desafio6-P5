@@ -203,6 +203,10 @@
     margin-bottom: 10vh;
 }
 
+.row h6{
+    margin-bottom: 15px;
+}
+
 .dir, .redes{
     text-align: center;
     font-size: smaller;
@@ -212,6 +216,11 @@
     margin: 5px;
 }
 
+/* efecto sobre iconos */
+.redes a img:hover{
+    transform: scale(0.95)
+}
+
 
 .copyright{
     text-align: center;
@@ -219,3 +228,5 @@
     padding: 10px;
     margin-top: 5vh;
 }
+
+

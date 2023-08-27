@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Griselda Sanchez</title>
+</head>
+<body>
+  <!-- navbar-light bg-light -->
+    <header>
+      <nav class="navbar navbar-expand-lg"> <!-- Cambio aquí: justify-content-end -->
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav"> <!-- Cambio aquí: ml-auto -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Redes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre mi</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid  img-perfil">
+        <img src="img/perfil.jpg" alt="perfil">
+        <div class="container texto">
+        <span class="nombre">Griselda Sanchez</span><br>
+        <span class="description">Estudiante de programación y desarrollo web</span>
+        </div>
+      </div>
+
+    </header>
+    
+    <main>
+
+
+      <div class="container-fluid title">
+        <span>PORTFOLIO</span>
+      </div>
+      <!--portfolio -->
+      <div class="container portfolio">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="port">
+              <a href="#">
+                <img src="img/proyect1.png" alt="proyecto1">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="port">
+              <a href="#">
+                <img src="img/proyect2.png" alt="proyecto2">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="port">
+              <a href="#">
+                <img src="img/proyect3.png" alt="proyecto3">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- sobre mi -->
+
+      <div class="container-fluid title">
+        <span>ACERCA DE MI</span>
+      </div>
+        <div class="container about-me">
+        <hr>
+        <h3>👋hola!, soy Griselda</h3>
+        <p>Soy una estudiante de desarrollo web y programación, comencé con  mi aprendizaje hace dos años, y desde entonces me dedico realice diversos curso, y ahora me encuentro en el curso introductorio de frontend de PLATAFORMA5, y este portfolio es uno de sus proyectos.</p>
+        <hr>
+      </div>
+
+
+      <div class="container-fluid title">
+        <span>CONTACTO</span>
+      </div>
+      <!-- nombre, email, teléfono, mensaje -->
+      <div class="container mt-5 form">
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese su email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su teléfono" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="form-control" id="mensaje" rows="4" placeholder="Ingrese su mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+
+   
+
+
+   </iframe>
+
+     </div>
+        
+        <!--portfolio 
+        Deberá tener un div class container con 1 row y 3 col.
+    *Deberás separar los bordes de la sección de su contenido usando padding. Las imágenes deberán estar estilizadas. Para eso, edita el CSS y generá el estilo esperado (por ejemplo, los bordes redondeados).
+        -->
+        <!-- sobre mi
+        En esta sección deberás contar un poco acerca de tu perfil profesional
+        Esta sección es muy sencilla. Se trata de un <h2>, seguido por un <hr> y, debajo, un <p>. -->
+
+        <!-- contacto 
+            formulario
+        -->
+
+    </main>
+    <footer>
+        <!-- datos personales -->
+        <!-- Copyright incluir la leyenda "Derechos de autor" (en inglés Copyright) y la fecha en la que creaste este sitio.-->
+        <!-- Esta sección está compuesta por un div class container, con 1 row y 2 col. 
+
+          direccion,telefono 
+          iconos de redes
+
+
+        -->
+
+        <div class="container foot">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="dir">
+                <h6>DIRECCIÓN</h6>
+                <span>Calle falsa 123, Prov. Bs As, Argentina</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="redes">
+                <h6>MIS REDES</h6>
+                <a href="linkedin"><img width="30" height="30" src="https://img.icons8.com/fluency/48/linkedin.png" alt="LinkedIn"/></a>
+                <a href="instagram"><img width="30" height="30" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-instagram-photo-and-video-sharing-social-networking-service-owned-by-facebook-logo-color-tal-revivo.png" alt="external-instagram-photo-and-video-sharing-social-networking-service-owned-by-facebook-logo-color-tal-revivo"/></a>
+
+                <a href="github"><img width="30" height="30" src="https://img.icons8.com/fluency/48/github.png" alt="github"/></a>
+              </div>
+
+            </div>
+            
+          </div>
+        </div>
+
+
+<div class="container copyright">
+  <span >Copyright © Griselda Sanchez, todos los derechos reservados</span>
+</div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

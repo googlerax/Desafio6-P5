@@ -129,6 +129,14 @@
     margin: 0 auto;
 }
 
+.port:hover {
+
+    transform: scale(1.2);
+    filter: grayscale(1);
+
+}
+
+
 .port img{
     width: 100%;
   height: auto;

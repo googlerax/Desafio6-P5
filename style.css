@@ -23,20 +23,39 @@
     text-align: center;
 }
 
+/* efecto botón */
+.navbar-nav li:last-child > a:active{
+    transform: scale(0.95); /* Reduce el tamaño */
+}
 
+
+/* selecciona a del primer li */
 .navbar-nav li:first-child > a {
     color: black;
 }
+
+
 
 .nav-item{
     margin: 0 5px;
 }
 
+
+/*  selección de todos los li menos el ultimo */
+.nav-item:not(:last-child):hover{
+    border-bottom: 2px solid #353535;
+}
+/* cambia el background al hacer click */
+.nav-item:not(:last-child):active{
+    background-color: #ffd124;
+    transform: scale(0.95); /* Reduce el tamaño */
+
+}
+
+
 .nav-link{
     font-size: 1rem;
     font-weight: 500;
-    
-   
 }
 
 /* card perfil */
@@ -107,6 +126,7 @@
 .port{
     width: 300px;
     height: 300px;
+    margin: 0 auto;
 }
 
 .port img{
@@ -119,7 +139,7 @@
 
 .about-me{
     margin-top: 10vh;
-    background-color: #02010A;
+    /* background-color: #02010A; */
     width: 65%;
     text-align: justify;
     border-radius: 45px;
@@ -127,7 +147,7 @@
 }
 
 .about-me h3{
-    color: white;
+    color: #070707;
     padding: 5px;
     margin-top: 5px;
 
@@ -135,17 +155,17 @@
 
 .about-me p{
     padding: 20px;
-    font-size: 20px;
-    color: white;
+    font-size: 18px;
+    color: #070707;
 }
 
 /* contacto */
 
 .form form{
 
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
-    background-color: #8B8C89;
+    background-color: #ffd124;
     padding: 30px;
 }
 
@@ -153,8 +173,15 @@
     padding: 5px;
     font-size: large;
     font-weight: 500;
-    color: #CEE0DC;
+    color: #070707;
 }
+
+.form form button{
+    margin-top: 5vh;
+    background-color: #070707;
+    color: white;
+}
+
 
 /* footer */
 
@@ -165,11 +192,16 @@
 
 .foot .row{
     justify-content:space-between;
+    margin-bottom: 10vh;
 }
 
 .dir, .redes{
-
     text-align: center;
+    font-size: smaller;
+}
+
+.redes a{
+    margin: 5px;
 }
 
 

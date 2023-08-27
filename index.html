@@ -11,7 +11,8 @@
 <body>
   <!-- navbar-light bg-light -->
     <header>
-      <nav class="navbar navbar-expand-lg"> <!-- Cambio aquí: justify-content-end -->
+
+      <nav id="up" class="navbar navbar-expand-lg"> <!-- Cambio aquí: justify-content-end -->
         <div class="container">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -19,16 +20,16 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav"> <!-- Cambio aquí: ml-auto -->
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contact">Contacto</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Redes</a>
+                <a class="nav-link" href="#redes">Redes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre mi</a>
+                <a class="nav-link" href="#about-me">Sobre mi</a>
               </li>
             </ul>
           </div>
@@ -80,18 +81,18 @@
 
       <!-- sobre mi -->
 
-      <div class="container-fluid title">
+      <div id="about-me" class="container-fluid title">
         <span>ACERCA DE MI</span>
       </div>
         <div class="container about-me">
         <hr>
         <h3>👋hola!, soy Griselda</h3>
-        <p>Soy una estudiante de desarrollo web y programación, comencé con  mi aprendizaje hace dos años, y desde entonces me dedico realice diversos curso, y ahora me encuentro en el curso introductorio de frontend de PLATAFORMA5, y este portfolio es uno de sus proyectos.</p>
+        <p>Soy estudiante de programación y desarrollo web,comencé en el mundo IT hace casi dos años y desde entonces me dedico 100% a aprender, ahora me encuentro realizando diversos cursos, entre ellos la tecnicatura en desarrollo de software y el curso introductorio frontend de PLATAFORMA5, siendo este proyecto uno de sus desafíos.</p>
         <hr>
       </div>
 
 
-      <div class="container-fluid title">
+      <div id="contact" class="container-fluid title">
         <span>CONTACTO</span>
       </div>
       <!-- nombre, email, teléfono, mensaje -->
@@ -157,12 +158,13 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="redes">
+              <div id="redes" class="redes">
                 <h6>MIS REDES</h6>
                 <a href="linkedin"><img width="30" height="30" src="https://img.icons8.com/fluency/48/linkedin.png" alt="LinkedIn"/></a>
                 <a href="instagram"><img width="30" height="30" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-instagram-photo-and-video-sharing-social-networking-service-owned-by-facebook-logo-color-tal-revivo.png" alt="external-instagram-photo-and-video-sharing-social-networking-service-owned-by-facebook-logo-color-tal-revivo"/></a>
-
                 <a href="github"><img width="30" height="30" src="https://img.icons8.com/fluency/48/github.png" alt="github"/></a>
+                <a href="#up"><img width="30" height="30" src="https://img.icons8.com/officexs/30/home.png" alt="home"/></a>
+
               </div>
 
             </div>
